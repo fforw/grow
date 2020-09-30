@@ -1,3 +1,4 @@
-# Simple Starter
+# Grow
 
-Simple JS build starter for simple, client-only demos.
+Geometric point growth experiment
+
