@@ -1,5 +1,6 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 const CleanObsoleteChunks = require('webpack-clean-obsolete-chunks');
 
 const path = require("path");
@@ -55,6 +56,19 @@ module.exports = {
             filename: "bundle-[name]-[chunkhash].css",
             chunkFilename: "bundle-[id]-[chunkhash].css"
         }),
+
+        // new CopyPlugin({
+        //         patterns: [
+        //             {
+        //                 from: "css/**/*"
+        //             },
+        //             {
+        //                 from: "webfonts/**/*"
+        //             }
+        //         ]
+        //     }
+        // ),
+
 
         new webpack.DefinePlugin({
             "__PROD": PRODUCTION,

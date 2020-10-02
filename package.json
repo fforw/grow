@@ -5,6 +5,7 @@
     "author": "Sven Helmberger",
     "license": "Apache-2.0",
     "dependencies": {
+        "classnames": "^2.2.6",
         "debounce": "^1.2.0",
         "domready": "^1.0.8",
         "mobx": "^5.15.7",
@@ -28,6 +29,7 @@
         "babel-loader": "^8.1.0",
         "babel-plugin-espower": "^3.0.1",
         "babel-plugin-transform-imports": "^2.0.0",
+        "copy-webpack-plugin": "^6.1.1",
         "cross-env": "^7.0.2",
         "css-loader": "^4.3.0",
         "glslify-hex": "^2.1.1",
