@@ -319,7 +319,7 @@ function main()
 
                 raf(main);
             },
-            2000
+            5000
         )
 
     }
